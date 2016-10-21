@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package wcthread;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author zelucas
- */
 public class WC {
     
     private int maxPessoas;
@@ -32,5 +23,4 @@ public class WC {
     public int dentroDoBanheiro(){
         return dentroWC.size();
     }
-    
 }

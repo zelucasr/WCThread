@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package wcthread;
 
 import java.util.Queue;
@@ -10,10 +5,6 @@ import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author zelucas
- */
 public class Gerador extends Thread {
     
     private boolean tipoGerador; //diferenciar gerador de homens e de mulheres
@@ -49,7 +40,7 @@ public class Gerador extends Thread {
         fila.offer(pessoa);
     }
     
-    /* métodos da fila:
+    /* metodos da fila:
     fila.offer(pessoa);
     Pessoa pessoaRemovida = (Pessoa)fila.poll();
     */
